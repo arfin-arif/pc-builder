@@ -1,0 +1,261 @@
+{
+    "products": [
+      {
+        "id": "1",
+        "image": "/images/cpuamd.jpg",
+        "name": "AMD Ryzen 9",
+        "category": "cpu",
+        "price": 199.99,
+        "status": "In Stock",
+        "rating": 4.5
+      },
+      {
+        "id": "2",
+        "image": "/images/motherboard.jpg",
+        "name": "Gigabyete 86",
+        "category": "motherboard",
+        "price": 129.99,
+        "status": "Out of Stock",
+        "rating": 3.8
+      },
+      {
+        "id": "3",
+        "image": "/images/ram.jpg",
+        "name": "Product 3",
+        "category": "ram",
+        "price": 79.99,
+        "status": "In Stock",
+        "rating": 4.2
+      },
+      {
+        "id": "4",
+        "image": "/images/power.jpg",
+        "name": "Product 4",
+        "category": "power-supply",
+        "price": 49.99,
+        "status": "In Stock",
+        "rating": 4.0
+      },
+      {
+        "id": "5",
+        "image": "/images/storage.jpg",
+        "name": "Product 5",
+        "category": "storage-device",
+        "price": 69.99,
+        "status": "In Stock",
+        "rating": 4.1
+      },
+      {
+        "id": "6",
+        "image": "/images/monitor.png",
+        "name": "Product 6",
+        "category": "monitor",
+        "price": 159.99,
+        "status": "In Stock",
+        "rating": 4.8
+      },       
+      {
+        "id": "7",
+          "category": "ram",
+        "image": "/images/ram.jpg",
+        "name": "Corsair Vengeance LPX",
+        "price": 79.99,
+        "status": "In Stock",
+        "rating": 4.2
+      },
+      {
+        "id": "8",
+          "category": "ram",
+        "image": "/images/ram2.jpg",
+        "name": "G.Skill Ripjaws V",
+        "price": 89.99,
+        "status": "Out of Stock",
+        "rating": 4.4
+      },
+      {
+        "id": "9",
+          "category": "ram",
+        "image": "/images/ram3.jpg",
+        "name": "Kingston HyperX Fury",
+        "price": 69.99,
+        "status": "In Stock",
+        "rating": 4.0
+      },
+      {
+        "id": "10",
+        "category": "power-supply",
+        "image": "/images/power.jpg",
+        "name": "EVGA 600 W1",
+        "price": 49.99,
+        "status": "In Stock",
+        "rating": 4.0
+      },
+      {
+        "id": "11",
+               "category": "power-supply",
+        "image": "/images/power2.jpg",
+        "name": "Corsair CX450M",
+        "price": 59.99,
+        "status": "Out of Stock",
+        "rating": 4.2
+      },
+      {
+        "id": "12",
+        "category": "power-supply",
+        "image": "/images/power3.jpg",
+        "name": "Seasonic FOCUS GX-750",
+        "price": 119.99,
+        "status": "In Stock",
+        "rating": 4.7
+      },
+
+      {
+        "id": "13",
+        "category": "storage-device",
+        "image": "/images/storage.jpg",
+        "name": "Samsung 970 EVO",
+        "price": 69.99,
+        "status": "In Stock",
+        "rating": 4.1
+      },
+      {
+        "id": "14",
+        "category": "storage-device",
+        "image": "/images/storage2.jpg",
+        "name": "Crucial MX500",
+        "price": 89.99,
+        "status": "In Stock",
+        "rating": 4.5
+      },
+      {
+        "id": "15",
+        "category": "storage-device",
+        "image": "/images/storage3.jpg",
+        "name": "WD Blue 1TB",
+        "price": 49.99,
+        "status": "Out of Stock",
+        "rating": 3.8
+      },
+      {
+        "id": "16",
+        "category": "monitor",
+        "image": "/images/monitor.png",
+        "name": "Dell Ultrasharp U2719D",
+        "price": 349.99,
+        "status": "In Stock",
+        "rating": 4.9
+      },
+      {
+        "id": "17",
+        "category": "monitor",
+        "image": "/images/monitor2.jpg",
+        "name": "LG 27UK850-W",
+        "price": 499.99,
+        "status": "In Stock",
+        "rating": 4.6
+      },
+      {
+        "id": "18",
+        "category": "monitor",
+        "image": "/images/monitor3.jpg",
+        "name": "Acer R240HY",
+        "price": 129.99,
+        "status": "In Stock",
+        "rating": 4.3
+      },
+      {
+        "id": "19",
+        "category": "cpu",
+        "image": "/images/cpuamd.jpg",
+        "name": "AMD Ryzen 9",
+        "price": 199.99,
+        "status": "In Stock",
+        "rating": 4.5
+      },
+      {
+        "id": "20",
+        "category": "cpu",
+        "image": "/images/cpuintel.jpg",
+        "name": "Intel Core i9",
+        "price": 219.99,
+        "status": "Out of Stock",
+        "rating": 4.3
+      },
+      {
+        "id": "21",
+        "category": "cpu",
+        "image": "/images/cpuamd2.jpg",
+        "name": "AMD Ryzen 7",
+        "price": 159.99,
+        "status": "In Stock",
+        "rating": 4.1
+      },{
+        "id": "22",
+        "image": "/images/motherboard.jpg",
+        "name": "Gigabyete 86",
+        "category": "motherboard",
+        "price": 129.99,
+        "status": "Out of Stock",
+        "rating": 3.8
+      },
+      {
+        "id": "23",
+        "image": "/images/motherboard.jpg",
+        "name": "Gigabyete 86",
+        "category": "motherboard",
+        "price": 129.99,
+        "status": "Out of Stock",
+        "rating": 3.8
+      }
+    ]
+,
+     
+      "categories": [
+        {
+          "id": "1",
+          "name": "cpu",
+          "title": "Get all the brand new CPU and processor",
+          "bgClass": "bg-gradient-to-r from-cyan-500 to-blue-500",
+          "url":"/categories/cpu"
+        },
+        {
+          "id": "2",
+          "name": "motherboard",
+          "title": "Find a compatible motherboard for your build",
+          "bgClass": "bg-gradient-to-r from-sky-500 to-indigo-500",
+           "url":"/categories/motherboard"
+        },
+        {
+          "id": "3",
+          "name": "ram",
+          "title": "Explore various RAM options for performance",
+          "bgClass": "bg-gradient-to-r from-cyan-500 to-blue-500",
+           "url":"/categories/ram"
+        },
+        {
+          "id": "4",
+          "name": "power-supply",
+          "title": "Select the right power supply for your system",
+          "bgClass": "bg-gradient-to-r from-cyan-500 to-blue-500",
+           "url":"/categories/power-supply"
+        },
+        {
+          "id": "5",
+          "name": "storage-device",
+          "title": "Discover storage solutions for your data",
+          "bgClass": "bg-gradient-to-r from-sky-500 to-indigo-500",
+           "url":"/categories/storage-device"
+        },
+        {
+          "id": "6",
+          "name": "monitor",
+          "title": "Find the perfect monitor for your needs",
+          "bgClass": "bg-gradient-to-r from-cyan-500 to-blue-500",
+           "url":"/categories/monitor"
+        }
+        
+      ]
+    
+    
+  }
+  

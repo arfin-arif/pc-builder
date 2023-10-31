@@ -4,9 +4,9 @@ import React from "react";
 const ErrorPage = () => {
   const router = useRouter();
 
-  setTimeout(() => {
-    router.push("/");
-  }, 5000);
+  // setTimeout(() => {
+  //   router.push("/");
+  // }, 5000);
 
   return (
     <div className="max-w-full mx-auto">
