@@ -34,22 +34,18 @@ const ProductDetailsPage = ({ product }) => {
           {/* Product Description */}
           <div className="mt-4">
             <h2 className="text-lg font-semibold">Description</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-              egestas, erat et varius convallis, dui dui egestas dui, quis
-              iaculis nunc arcu nec urna.
-            </p>
+            <p>{product.description}</p>
           </div>
 
           {/* Key Features */}
           <div className="mt-4">
             <h2 className="text-lg font-semibold">Key Features</h2>
             <ul className="list-disc list-inside">
-              <li>Brand: ABC</li>
-              <li>Model: XYZ123</li>
-              <li>Specification: Lorem ipsum</li>
-              <li>Port: USB 3.0</li>
-              <li>Type: Component</li>
+              <li>Brand: {product.keyFeatures.Brand}</li>
+              <li>Model: {product.keyFeatures.Model}</li>
+              <li>Specification: {product.keyFeatures.Specification}</li>
+              <li>Port: {product.keyFeatures.Type}</li>
+              <li>Type: {product.keyFeatures.Voltage}</li>
             </ul>
           </div>
         </div>
@@ -61,45 +57,44 @@ const ProductDetailsPage = ({ product }) => {
         <div className="flex items-center mt-2">
           {/* Individual Rating */}
           <div className="mr-4">
-            <span className="text-2xl font-semibold">4.5</span>
-            <span className="text-gray-500">/5</span>
+            <span className="text-gray-500">
+              Individual Rating :{product.individualRating}
+            </span>
           </div>
           {/* Average Rating */}
-          <div className="text-gray-600">Average Rating: 4.3/5</div>
+          <div className="text-gray-600">
+            Average Rating: {product.averageRating}
+          </div>
         </div>
       </div>
 
       {/* Reviews */}
       <div className="mt-8">
         <h2 className="text-xl font-semibold">Reviews</h2>
-        <div className="mt-4">
-          {/* Individual Reviews Go Here */}
-          <div className="border-t-2 border-gray-100 p-4">
-            <div className="flex items-center">
-              {/* Reviewer Avatar */}
-              <img
-                src="/images/avatar.jpg" // Replace with reviewer's avatar URL
-                alt="Reviewer"
-                className="w-10 h-10 rounded-full"
-              />
-              <div className="ml-4">
-                {/* Reviewer Name */}
-                <p className="text-lg font-semibold">John Doe</p>
-                {/* Review Rating */}
-                <div className="flex items-center mt-1">
-                  <span className="text-2xl font-semibold">4.5</span>
-                  <span className="text-gray-500">/5</span>
+        {product.reviews.map((review) => (
+          <div key={review.name} className="mt-4">
+            {/* Individual Reviews Go Here */}
+            <div className="border-t-2 border-gray-100 p-4">
+              <div className="flex items-center">
+                <div className="ml-4">
+                  {/* Reviewer Name */}
+                  <p className="text-lg font-semibold">{review.name}</p>
+                  {/* Review Rating */}
+                  <div className="flex items-center mt-1">
+                    <span className="text-2xl font-semibold">
+                      {review.rating}
+                    </span>
+                    <span className="text-2xl font-semibold text-gray-500">
+                      /5
+                    </span>
+                  </div>
+                  {/* Review Content */}
+                  <p className="mt-2">{review.comment}</p>
                 </div>
-                {/* Review Content */}
-                <p className="mt-2">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Nullam egestas, erat et varius convallis, dui dui egestas dui,
-                  quis iaculis nunc arcu nec urna.
-                </p>
               </div>
             </div>
           </div>
-        </div>
+        ))}
       </div>
     </div>
   );

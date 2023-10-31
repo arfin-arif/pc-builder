@@ -1,7 +1,3 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
 First, run the development server:
 
 ```bash
@@ -14,27 +10,29 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+**Website Overview:**
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Welcome to our one-stop destination for computer enthusiasts and PC builders. Our website offers a wide range of computer components, peripherals, and accessories. Whether you're an experienced PC builder or a novice looking to upgrade your setup, we've got you covered.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+**Key Features:**
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. **Extensive Product Catalog:**
+   Explore a vast catalog of computer components, including CPUs, motherboards, RAM, power supplies, storage devices, monitors, and more. Find everything you need for your PC build or upgrade.
 
-## Learn More
+2. **Featured Products:**
+   Discover the latest and most popular products showcased on the home page. Get insights into featured items, including images, descriptions, prices, and user ratings.
 
-To learn more about Next.js, take a look at the following resources:
+3. **Categories Dropdown:**
+   Navigate through various product categories with ease. Use the Categories dropdown in the navigation bar to quickly access items specific to your needs.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. **Category-Specific Pages:**
+   Dive deeper into your preferred product categories by selecting them from the dropdown. Each category has its dedicated page with detailed information and product listings.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+5. **Product Details:**
+   Click on any product to access comprehensive details, including high-quality images, product names, categories, stock availability, prices, in-depth descriptions, key features, individual ratings, and average ratings.
 
-## Deploy on Vercel
+6. **User Reviews and Ratings:**
+   Read user reviews and check out product ratings to make informed purchase decisions. Leave your feedback and contribute to our community.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# pc-builder
-# -pc-builde
+7. **Responsive Design:**
+   Enjoy a seamless user experience on both desktop and mobile devices. Our website is optimized for various screen sizes, ensuring you can shop comfortably from any device.

@@ -8,10 +8,11 @@ import {
   TwitterSquareFilled,
 } from "@ant-design/icons";
 import { Layout, Menu } from "antd";
-const { Header, Content, Footer } = Layout;
+const { Header, Content } = Layout;
 import styles from "@/styles/Home.module.css";
 import Link from "next/link";
 import { Button, Dropdown, Space } from "antd";
+import Footer from "../UI/Footer";
 
 const RootLayout = ({ children }) => {
   const items = [
@@ -69,7 +70,7 @@ const RootLayout = ({ children }) => {
         <a
           // target="_blank"
           rel="noopener noreferrer"
-          href="/categories/storage"
+          href="/categories/storage-device"
         >
           Storage Device
         </a>
@@ -161,34 +162,7 @@ const RootLayout = ({ children }) => {
         {children}
       </Content>
 
-      <Footer
-        style={{
-          textAlign: "center",
-        }}
-      >
-        <div className={styles.line}></div>
-        <h2
-          style={{
-            fontSize: "28px",
-          }}
-        >
-          PC Builder
-        </h2>
-        <p className={styles.social_icons}>
-          <Link href="https://web.facebook.com/">
-            <FacebookFilled />
-          </Link>
-          <Link href="www.twitter.com">
-            <TwitterSquareFilled />
-          </Link>
-          <Link href="">
-            <GoogleSquareFilled />
-          </Link>
-          <Link href="www.linkedin.com">
-            <LinkedinFilled />
-          </Link>
-        </p>
-      </Footer>
+      <Footer />
     </Layout>
   );
 };

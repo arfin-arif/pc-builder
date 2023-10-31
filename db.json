@@ -1,213 +1,732 @@
 {
     "products": [
       {
-        "id": "1",
-        "image": "/images/cpuamd.jpg",
-        "name": "AMD Ryzen 9",
-        "category": "cpu",
-        "price": 199.99,
-        "status": "In Stock",
-        "rating": 4.5
+          "id": "1",
+          "image": "/images/cpuamd.jpg",
+          "name": "AMD Ryzen 9",
+          "category": "cpu",
+          "price": 199.99,
+          "status": "In Stock",
+          "rating": 4.5,
+          "description": "High-performance CPU for gaming and multitasking.",
+          "keyFeatures": {
+              "Brand": "AMD",
+              "Model": "Ryzen 9",
+              "Specification": "12-core, 24-thread",
+              "Port": "AM4",
+              "Type": "Desktop",
+              "Voltage": "1.4V"
+          },
+          "individualRating": 4.5,
+          "averageRating": 4.4,
+          "reviews": [
+              {
+                  "name": "John Doe",
+                  "rating": 5,
+                  "comment": "Great CPU for gaming!"
+              },
+              {
+                  "name": "Jane Smith",
+                  "rating": 4,
+                  "comment": "Good performance, but a bit pricey."
+              }
+          ]
       },
       {
-        "id": "2",
-        "image": "/images/motherboard.jpg",
-        "name": "Gigabyete 86",
-        "category": "motherboard",
-        "price": 129.99,
-        "status": "Out of Stock",
-        "rating": 3.8
+          "id": "2",
+          "image": "/images/motherboard.jpg",
+          "name": "Gigabyte 86",
+          "category": "motherboard",
+          "price": 129.99,
+          "status": "Out of Stock",
+          "rating": 3.8,
+          "description": "High-quality motherboard for gaming PCs.",
+          "keyFeatures": {
+              "Brand": "Gigabyte",
+              "Model": "86",
+              "Specification": "ATX, DDR4, USB 3.2",
+              "Port": "AM4",
+              "Type": "Desktop",
+              "Voltage": "1.2V"
+          },
+          "individualRating": 3.8,
+          "averageRating": 4.0,
+          "reviews": [
+              {
+                  "name": "Alice Johnson",
+                  "rating": 4,
+                  "comment": "Great features but always out of stock."
+              },
+              {
+                  "name": "Bob Williams",
+                  "rating": 3,
+                  "comment": "Average quality for the price."
+              }
+          ]
       },
       {
-        "id": "3",
-        "image": "/images/ram.jpg",
-        "name": "Product 3",
-        "category": "ram",
-        "price": 79.99,
-        "status": "In Stock",
-        "rating": 4.2
-      },
-      {
-        "id": "4",
-        "image": "/images/power.jpg",
-        "name": "Product 4",
-        "category": "power-supply",
-        "price": 49.99,
-        "status": "In Stock",
-        "rating": 4.0
-      },
-      {
-        "id": "5",
-        "image": "/images/storage.jpg",
-        "name": "Product 5",
-        "category": "storage-device",
-        "price": 69.99,
-        "status": "In Stock",
-        "rating": 4.1
-      },
-      {
-        "id": "6",
-        "image": "/images/monitor.png",
-        "name": "Product 6",
-        "category": "monitor",
-        "price": 159.99,
-        "status": "In Stock",
-        "rating": 4.8
-      },       
-      {
-        "id": "7",
+          "id": "3",
+          "image": "/images/ram.jpg",
+          "name": "Product 3",
           "category": "ram",
-        "image": "/images/ram.jpg",
-        "name": "Corsair Vengeance LPX",
-        "price": 79.99,
-        "status": "In Stock",
-        "rating": 4.2
+          "price": 79.99,
+          "status": "In Stock",
+          "rating": 4.2,
+          "description": "High-speed RAM for better performance.",
+          "keyFeatures": {
+              "Brand": "Generic",
+              "Model": "DDR4",
+              "Specification": "16GB, 3200MHz",
+              "Port": "DIMM",
+              "Type": "Desktop",
+              "Voltage": "1.35V"
+          },
+          "individualRating": 4.2,
+          "averageRating": 4.3,
+          "reviews": [
+              {
+                  "name": "Eva Brown",
+                  "rating": 4,
+                  "comment": "Good RAM, works fine."
+              },
+              {
+                  "name": "David Miller",
+                  "rating": 5,
+                  "comment": "Great value for the price."
+              }
+          ]
       },
       {
-        "id": "8",
+          "id": "4",
+          "image": "/images/power.jpg",
+          "name": "Product 4",
+          "category": "power-supply",
+          "price": 49.99,
+          "status": "In Stock",
+          "rating": 4.0,
+          "description": "Reliable power supply for your PC.",
+          "keyFeatures": {
+              "Brand": "XPower",
+              "Model": "PSU-500",
+              "Specification": "500W, 80 Plus Bronze",
+              "Port": "ATX",
+              "Type": "Desktop",
+              "Voltage": "100-240V"
+          },
+          "individualRating": 4.0,
+          "averageRating": 4.1,
+          "reviews": [
+              {
+                  "name": "John Smith",
+                  "rating": 4,
+                  "comment": "Good PSU for basic usage."
+              },
+              {
+                  "name": "Mary Johnson",
+                  "rating": 3,
+                  "comment": "Not the best quality, but it works."
+              }
+          ]
+      },
+      {
+          "id": "5",
+          "image": "/images/storage.jpg",
+          "name": "Product 5",
+          "category": "storage-device",
+          "price": 69.99,
+          "status": "In Stock",
+          "rating": 4.1,
+          "description": "High-capacity SSD for data storage.",
+          "keyFeatures": {
+              "Brand": "WD",
+              "Model": "Blue 1TB",
+              "Specification": "SATA, 2.5-inch",
+              "Port": "SATA III",
+              "Type": "Internal",
+              "Voltage": "5V"
+          },
+          "individualRating": 4.1,
+          "averageRating": 4.2,
+          "reviews": [
+              {
+                  "name": "Mark Davis",
+                  "rating": 5,
+                  "comment": "Fast and reliable storage device."
+              },
+              {
+                  "name": "Sophia Wilson",
+                  "rating": 4,
+                  "comment": "Good value for the price."
+              }
+          ]
+      },
+      {
+          "id": "6",
+          "image": "/images/monitor.png",
+          "name": "Product 6",
+          "category": "monitor",
+          "price": 159.99,
+          "status": "In Stock",
+          "rating": 4.8,
+          "description": "High-resolution monitor for immersive gaming and work.",
+          "keyFeatures": {
+              "Brand": "Viewsonic",
+              "Model": "VX2757-mhd",
+              "Specification": "27-inch, Full HD",
+              "Port": "HDMI, DisplayPort, VGA",
+              "Type": "LED",
+              "Voltage": "100-240V"
+          },
+          "individualRating": 4.8,
+          "averageRating": 4.6,
+          "reviews": [
+              {
+                  "name": "Alex Thompson",
+                  "rating": 5,
+                  "comment": "Excellent monitor for the price!"
+              },
+              {
+                  "name": "Laura Martinez",
+                  "rating": 4,
+                  "comment": "Decent display quality."
+              }
+          ]
+      },
+      {
+          "id": "7",
+          "image": "/images/ram.jpg",
+          "name": "Corsair Vengeance LPX",
           "category": "ram",
-        "image": "/images/ram2.jpg",
-        "name": "G.Skill Ripjaws V",
-        "price": 89.99,
-        "status": "Out of Stock",
-        "rating": 4.4
+          "price": 79.99,
+          "status": "In Stock",
+          "rating": 4.2,
+          "description": "High-quality RAM for gaming and multitasking.",
+          "keyFeatures": {
+              "Brand": "Corsair",
+              "Model": "Vengeance LPX",
+              "Specification": "16GB, DDR4, 3200MHz",
+              "Port": "DIMM",
+              "Type": "Desktop",
+              "Voltage": "1.35V"
+          },
+          "individualRating": 4.2,
+          "averageRating": 4.3,
+          "reviews": [
+              {
+                  "name": "Mike Wilson",
+                  "rating": 5,
+                  "comment": "Great RAM for gaming PCs!"
+              },
+              {
+                  "name": "Lisa Davis",
+                  "rating": 4,
+                  "comment": "Reliable performance."
+              }
+          ]
       },
       {
-        "id": "9",
+          "id": "8",
+          "image": "/images/ram2.jpg",
+          "name": "G.Skill Ripjaws V",
           "category": "ram",
-        "image": "/images/ram3.jpg",
-        "name": "Kingston HyperX Fury",
-        "price": 69.99,
-        "status": "In Stock",
-        "rating": 4.0
+          "price": 89.99,
+          "status": "Out of Stock",
+          "rating": 4.4,
+          "description": "High-speed RAM for gaming and content creation.",
+          "keyFeatures": {
+              "Brand": "G.Skill",
+              "Model": "Ripjaws V",
+              "Specification": "16GB, DDR4, 3600MHz",
+              "Port": "DIMM",
+              "Type": "Desktop",
+              "Voltage": "1.35V"
+          },
+          "individualRating": 4.4,
+          "averageRating": 4.5,
+          "reviews": [
+              {
+                  "name": "Michael Johnson",
+                  "rating": 5,
+                  "comment": "Best RAM I've used for gaming!"
+              },
+              {
+                  "name": "Sarah Smith",
+                  "rating": 4,
+                  "comment": "Good RAM, but often out of stock."
+              }
+          ]
       },
       {
-        "id": "10",
-        "category": "power-supply",
-        "image": "/images/power.jpg",
-        "name": "EVGA 600 W1",
-        "price": 49.99,
-        "status": "In Stock",
-        "rating": 4.0
+          "id": "9",
+          "image": "/images/ram3.jpg",
+          "name": "Kingston HyperX Fury",
+          "category": "ram",
+          "price": 69.99,
+          "status": "In Stock",
+          "rating": 4.0,
+          "description": "Budget-friendly RAM for everyday computing.",
+          "keyFeatures": {
+              "Brand": "Kingston",
+              "Model": "HyperX Fury",
+              "Specification": "8GB, DDR4, 2666MHz",
+              "Port": "DIMM",
+              "Type": "Desktop",
+              "Voltage": "1.2V"
+          },
+          "individualRating": 4.0,
+          "averageRating": 3.9,
+          "reviews": [
+              {
+                  "name": "Chris Davis",
+                  "rating": 3,
+                  "comment": "Decent RAM for the price."
+              },
+              {
+                  "name": "Megan Smith",
+                  "rating": 4,
+                  "comment": "Good budget RAM for simple tasks."
+              }
+          ]
       },
       {
-        "id": "11",
-               "category": "power-supply",
-        "image": "/images/power2.jpg",
-        "name": "Corsair CX450M",
-        "price": 59.99,
-        "status": "Out of Stock",
-        "rating": 4.2
+          "id": "10",
+          "image": "/images/power.jpg",
+          "name": "EVGA 600 W1",
+          "category": "power-supply",
+          "price": 49.99,
+          "status": "In Stock",
+          "rating": 4.0,
+          "description": "Reliable power supply for PCs with mid-range components.",
+          "keyFeatures": {
+              "Brand": "EVGA",
+              "Model": "600 W1",
+              "Specification": "600W, 80 Plus White",
+              "Port": "ATX",
+              "Type": "Desktop",
+              "Voltage": "100-240V"
+          },
+          "individualRating": 4.0,
+          "averageRating": 4.2,
+          "reviews": [
+              {
+                  "name": "Robert Johnson",
+                  "rating": 4,
+                  "comment": "Good PSU for budget builds."
+              },
+              {
+                  "name": "Emily Smith",
+                  "rating": 3,
+                  "comment": "Basic PSU, but gets the job done."
+              }
+          ]
+      },
+     {
+          "id": "11",
+          "image": "/images/power.jpg",
+          "name": "Corsair CX450M",
+          "category": "power-supply",
+          "price": 59.99,
+          "status": "Out of Stock",
+          "rating": 4.2,
+          "description": "Reliable power supply unit for your PC.",
+          "keyFeatures": {
+              "Brand": "Corsair",
+              "Model": "CX450M",
+              "Specification": "450W, 80+ Bronze",
+              "Type": "ATX",
+              "Voltage": "120-240V"
+          },
+          "individualRating": 4.2,
+          "averageRating": 4.0,
+          "reviews": [
+              {
+                  "name": "Michael Clark",
+                  "rating": 5,
+                  "comment": "Great PSU, good price!"
+              },
+              {
+                  "name": "Sarah Davis",
+                  "rating": 3,
+                  "comment": "Not as efficient as expected."
+              }
+          ]
       },
       {
-        "id": "12",
-        "category": "power-supply",
-        "image": "/images/power3.jpg",
-        "name": "Seasonic FOCUS GX-750",
-        "price": 119.99,
-        "status": "In Stock",
-        "rating": 4.7
-      },
-
-      {
-        "id": "13",
-        "category": "storage-device",
-        "image": "/images/storage.jpg",
-        "name": "Samsung 970 EVO",
-        "price": 69.99,
-        "status": "In Stock",
-        "rating": 4.1
-      },
-      {
-        "id": "14",
-        "category": "storage-device",
-        "image": "/images/storage2.jpg",
-        "name": "Crucial MX500",
-        "price": 89.99,
-        "status": "In Stock",
-        "rating": 4.5
-      },
-      {
-        "id": "15",
-        "category": "storage-device",
-        "image": "/images/storage3.jpg",
-        "name": "WD Blue 1TB",
-        "price": 49.99,
-        "status": "Out of Stock",
-        "rating": 3.8
+          "id": "12",
+          "image": "/images/power.jpg",
+          "name": "Seasonic FOCUS GX-750",
+          "category": "power-supply",
+          "price": 119.99,
+          "status": "In Stock",
+          "rating": 4.7,
+          "description": "High-end power supply for gaming rigs.",
+          "keyFeatures": {
+              "Brand": "Seasonic",
+              "Model": "FOCUS GX-750",
+              "Specification": "750W, 80+ Gold",
+              "Type": "ATX",
+              "Voltage": "100-240V"
+          },
+          "individualRating": 4.7,
+          "averageRating": 4.5,
+          "reviews": [
+              {
+                  "name": "Robert Smith",
+                  "rating": 5,
+                  "comment": "Top-notch PSU, highly recommended!"
+              },
+              {
+                  "name": "Laura Johnson",
+                  "rating": 4,
+                  "comment": "Good performance, a bit pricey."
+              }
+          ]
       },
       {
-        "id": "16",
-        "category": "monitor",
-        "image": "/images/monitor.png",
-        "name": "Dell Ultrasharp U2719D",
-        "price": 349.99,
-        "status": "In Stock",
-        "rating": 4.9
+          "id": "13",
+          "image": "/images/storage.jpg",
+          "name": "Samsung 970 EVO",
+          "category": "storage-device",
+          "price": 69.99,
+          "status": "In Stock",
+          "rating": 4.1,
+          "description": "High-speed NVMe SSD for storage needs.",
+          "keyFeatures": {
+              "Brand": "Samsung",
+              "Model": "970 EVO",
+              "Specification": "1TB, M.2, NVMe",
+              "Type": "SSD",
+              "Voltage": "3.3V"
+          },
+          "individualRating": 4.1,
+          "averageRating": 4.2,
+          "reviews": [
+              {
+                  "name": "Emily Wilson",
+                  "rating": 4,
+                  "comment": "Fast and reliable SSD."
+              },
+              {
+                  "name": "John Smith",
+                  "rating": 4,
+                  "comment": "Good value for the money."
+              }
+          ]
       },
-      {
-        "id": "17",
-        "category": "monitor",
-        "image": "/images/monitor2.jpg",
-        "name": "LG 27UK850-W",
-        "price": 499.99,
-        "status": "In Stock",
-        "rating": 4.6
+  {
+      "id": "14",
+      "image": "/images/storage2.jpg",
+      "name": "Crucial MX500",
+      "category": "storage-device",
+      "price": 89.99,
+      "status": "In Stock",
+      "rating": 4.5,
+      "description": "Reliable SATA SSD for everyday use.",
+      "keyFeatures": {
+          "Brand": "Crucial",
+          "Model": "MX500",
+          "Specification": "500GB, 2.5-inch, SATA III",
+          "Type": "SSD",
+          "Voltage": "5V"
       },
-      {
-        "id": "18",
-        "category": "monitor",
-        "image": "/images/monitor3.jpg",
-        "name": "Acer R240HY",
-        "price": 129.99,
-        "status": "In Stock",
-        "rating": 4.3
+      "individualRating": 4.5,
+      "averageRating": 4.3,
+      "reviews": [
+          {
+              "name": "Jennifer Brown",
+              "rating": 5,
+              "comment": "Great SSD for the price."
+          },
+          {
+              "name": "Daniel Lee",
+              "rating": 4,
+              "comment": "Solid performance and value."
+          }
+      ]
+  },
+  {
+      "id": "15",
+      "image": "/images/storage3.jpg",
+      "name": "WD Blue 1TB",
+      "category": "storage-device",
+      "price": 49.99,
+      "status": "Out of Stock",
+      "rating": 3.8,
+      "description": "WD Blue HDD for storage and backup.",
+      "keyFeatures": {
+          "Brand": "Western Digital",
+          "Model": "Blue",
+          "Specification": "1TB, 3.5-inch, SATA III",
+          "Type": "HDD",
+          "Voltage": "5V"
       },
-      {
-        "id": "19",
-        "category": "cpu",
-        "image": "/images/cpuamd.jpg",
-        "name": "AMD Ryzen 9",
-        "price": 199.99,
-        "status": "In Stock",
-        "rating": 4.5
+      "individualRating": 3.8,
+      "averageRating": 3.9,
+      "reviews": [
+          {
+              "name": "Lisa Smith",
+              "rating": 3,
+              "comment": "Decent HDD, but not the fastest."
+          },
+          {
+              "name": "Matthew Johnson",
+              "rating": 4,
+              "comment": "Good storage capacity."
+          }
+      ]
+  },
+  {
+      "id": "16",
+      "image": "/images/monitor.png",
+      "name": "Dell Ultrasharp U2719D",
+      "category": "monitor",
+      "price": 349.99,
+      "status": "In Stock",
+      "rating": 4.9,
+      "description": "27-inch Ultrasharp monitor for professionals.",
+      "keyFeatures": {
+          "Brand": "Dell",
+          "Model": "U2719D",
+          "Specification": "27-inch, 1440p, IPS",
+          "Type": "LED Monitor",
+          "Voltage": "100-240V"
       },
-      {
-        "id": "20",
-        "category": "cpu",
-        "image": "/images/cpuintel.jpg",
-        "name": "Intel Core i9",
-        "price": 219.99,
-        "status": "Out of Stock",
-        "rating": 4.3
+      "individualRating": 4.9,
+      "averageRating": 4.8,
+      "reviews": [
+          {
+              "name": "Michael Miller",
+              "rating": 5,
+              "comment": "Amazing monitor for design work."
+          },
+          {
+              "name": "Sophia White",
+              "rating": 4,
+              "comment": "Great for office use."
+          }
+      ]
+  },
+    {
+      "id": "17",
+      "image": "/images/monitor2.jpg",
+      "name": "LG 27UK850-W",
+      "category": "monitor",
+      "price": 499.99,
+      "status": "In Stock",
+      "rating": 4.6,
+      "description": "27-inch 4K UHD monitor with USB-C connectivity.",
+      "keyFeatures": {
+          "Brand": "LG",
+          "Model": "27UK850-W",
+          "Specification": "27-inch, 4K UHD, IPS, USB-C",
+          "Type": "LED Monitor",
+          "Voltage": "100-240V"
       },
-      {
-        "id": "21",
-        "category": "cpu",
-        "image": "/images/cpuamd2.jpg",
-        "name": "AMD Ryzen 7",
-        "price": 159.99,
-        "status": "In Stock",
-        "rating": 4.1
-      },{
-        "id": "22",
-        "image": "/images/motherboard.jpg",
-        "name": "Gigabyete 86",
-        "category": "motherboard",
-        "price": 129.99,
-        "status": "Out of Stock",
-        "rating": 3.8
+      "individualRating": 4.6,
+      "averageRating": 4.5,
+      "reviews": [
+          {
+              "name": "John Davis",
+              "rating": 5,
+              "comment": "Awesome 4K monitor for gaming and work."
+          },
+          {
+              "name": "Emily Wilson",
+              "rating": 4,
+              "comment": "Impressive display quality."
+          }
+      ]
+  },
+  {
+      "id": "18",
+      "image": "/images/monitor3.jpg",
+      "name": "Acer R240HY",
+      "category": "monitor",
+      "price": 129.99,
+      "status": "In Stock",
+      "rating": 4.3,
+      "description": "23.8-inch Full HD IPS monitor for everyday use.",
+      "keyFeatures": {
+          "Brand": "Acer",
+          "Model": "R240HY",
+          "Specification": "23.8-inch, Full HD, IPS",
+          "Type": "LED Monitor",
+          "Voltage": "100-240V"
       },
-      {
-        "id": "23",
-        "image": "/images/motherboard.jpg",
-        "name": "Gigabyete 86",
-        "category": "motherboard",
-        "price": 129.99,
-        "status": "Out of Stock",
-        "rating": 3.8
-      }
-    ]
+      "individualRating": 4.3,
+      "averageRating": 4.2,
+      "reviews": [
+          {
+              "name": "Sarah Adams",
+              "rating": 4,
+              "comment": "Good budget-friendly monitor."
+          },
+          {
+              "name": "Robert Wilson",
+              "rating": 5,
+              "comment": "Impressed with the display quality."
+          }
+      ]
+  },
+  {
+      "id": "19",
+      "image": "/images/cpuamd.jpg",
+      "name": "AMD Ryzen 9",
+      "category": "cpu",
+      "price": 199.99,
+      "status": "In Stock",
+      "rating": 4.5,
+      "description": "Powerful AMD Ryzen 9 CPU for gaming and multitasking.",
+      "keyFeatures": {
+          "Brand": "AMD",
+          "Model": "Ryzen 9",
+          "Specification": "12 cores, 24 threads, 3.8 GHz base clock",
+          "Type": "CPU",
+          "Voltage": "1.3V"
+      },
+      "individualRating": 4.5,
+      "averageRating": 4.6,
+      "reviews": [
+          {
+              "name": "Chris Roberts",
+              "rating": 5,
+              "comment": "Great CPU for gaming and productivity."
+          },
+          {
+              "name": "Olivia Parker",
+              "rating": 4,
+              "comment": "Fast and reliable processor."
+          }
+      ]
+  },
+  {
+      "id": "20",
+      "image": "/images/cpuintel.jpg",
+      "name": "Intel Core i9",
+      "category": "cpu",
+      "price": 219.99,
+      "status": "Out of Stock",
+      "rating": 4.3,
+      "description": "High-performance Intel Core i9 CPU for enthusiasts.",
+      "keyFeatures": {
+          "Brand": "Intel",
+          "Model": "Core i9",
+          "Specification": "10 cores, 20 threads, 3.7 GHz base clock",
+          "Type": "CPU",
+          "Voltage": "1.35V"
+      },
+      "individualRating": 4.3,
+      "averageRating": 4.1,
+      "reviews": [
+          {
+              "name": "David Harris",
+              "rating": 5,
+              "comment": "Superb CPU for demanding tasks."
+          },
+          {
+              "name": "Nina Turner",
+              "rating": 4,
+              "comment": "Great CPU but tends to get hot."
+          }
+      ]
+  },
+  {
+      "id": "21",
+      "image": "/images/cpuamd2.jpg",
+      "name": "AMD Ryzen 7",
+      "category": "cpu",
+      "price": 159.99,
+      "status": "In Stock",
+      "rating": 4.1,
+      "description": "Affordable AMD Ryzen 7 CPU for mid-range PCs.",
+      "keyFeatures": {
+          "Brand": "AMD",
+          "Model": "Ryzen 7",
+          "Specification": "8 cores, 16 threads, 3.6 GHz base clock",
+          "Type": "CPU",
+          "Voltage": "1.25V"
+      },
+      "individualRating": 4.1,
+      "averageRating": 4.2,
+      "reviews": [
+          {
+              "name": "Hannah Lee",
+              "rating": 4,
+              "comment": "Good CPU for the price."
+          },
+          {
+              "name": "Michael Adams",
+              "rating": 3,
+              "comment": "Decent performance, but not the best."
+          }
+      ]
+  },
+  {
+      "id": "22",
+      "image": "/images/motherboard.jpg",
+      "name": "Gigabyte 86",
+      "category": "motherboard",
+      "price": 129.99,
+      "status": "Out of Stock",
+      "rating": 3.8,
+      "description": "Gigabyte 86 ATX motherboard with advanced features.",
+      "keyFeatures": {
+          "Brand": "Gigabyte",
+          "Model": "86",
+          "Specification": "ATX, LGA1200, DDR4, USB 3.2 Gen 1",
+          "Type": "Motherboard",
+          "Voltage": "12V"
+      },
+      "individualRating": 3.8,
+      "averageRating": 4.0,
+      "reviews": [
+          {
+              "name": "Daniel Miller",
+              "rating": 3,
+              "comment": "Decent motherboard but out of stock."
+          },
+          {
+              "name": "Sophie Turner",
+              "rating": 4,
+              "comment": "Impressive features for a motherboard."
+          }
+      ]
+  },
+  {
+      "id": "23",
+      "image": "/images/motherboard.jpg",
+      "name": "Gigabyte 86",
+      "category": "motherboard",
+      "price": 129.99,
+      "status": "Out of Stock",
+      "rating": 3.8,
+      "description": "Gigabyte 86 ATX motherboard with advanced features.",
+      "keyFeatures": {
+          "Brand": "Gigabyte",
+          "Model": "86",
+          "Specification": "ATX, LGA1200, DDR4, USB 3.2 Gen 1",
+          "Type": "Motherboard",
+          "Voltage": "12V"
+      },
+      "individualRating": 3.8,
+      "averageRating": 4.0,
+      "reviews": [
+          {
+              "name": "Daniel Miller",
+              "rating": 3,
+              "comment": "Decent motherboard but out of stock."
+          },
+          {
+              "name": "Sophie Turner",
+              "rating": 4,
+              "comment": "Impressive features for a motherboard."
+          }
+      ]
+  }
+  
+  
+  
+  ]
 ,
      
       "categories": [
