@@ -19,85 +19,85 @@ const RootLayout = ({ children }) => {
     {
       key: "1",
       label: (
-        <a
+        <Link
           // target="_blank"
           rel="noopener noreferrer"
           href="/categories/cpu"
         >
           CPU / Processor
-        </a>
+        </Link>
       ),
     },
     {
       key: "2",
       label: (
-        <a
+        <Link
           // target="_blank"
           rel="noopener noreferrer"
           href="/categories/motherboard"
         >
           Motherboard
-        </a>
+        </Link>
       ),
     },
     {
       key: "3",
       label: (
-        <a
+        <Link
           // target="_blank"
           rel="noopener noreferrer"
           href="/categories/ram"
         >
           RAM
-        </a>
+        </Link>
       ),
     },
     {
       key: "4",
       label: (
-        <a
+        <Link
           // target="_blank"
           rel="noopener noreferrer"
           href="/categories/power-supply"
         >
           Power Supply Unit
-        </a>
+        </Link>
       ),
     },
     {
       key: "5",
       label: (
-        <a
+        <Link
           // target="_blank"
           rel="noopener noreferrer"
           href="/categories/storage-device"
         >
           Storage Device
-        </a>
+        </Link>
       ),
     },
     {
       key: "6",
       label: (
-        <a
+        <Link
           // target="_blank"
           rel="noopener noreferrer"
           href="/categories/monitor"
         >
           Monitor
-        </a>
+        </Link>
       ),
     },
     {
       key: "7",
       label: (
-        <a
+        <Link
           // target="_blank"
           rel="noopener noreferrer"
           href="/categories/others"
         >
           Others
-        </a>
+        </Link>
       ),
     },
   ];
